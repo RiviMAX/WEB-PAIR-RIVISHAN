@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*Primeway Education [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*https://wa.me/94764306687*`;
+            const sid = `*🔰Primeway Education🔰*\n\n👉 ${string_session} 👈\n\n*⛔This is the your Session ID, copy this id and paste into config.js file⛔*\n\n*You can ask any question using this link*\n\n*https://wa.me/94764306687*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
@@ -129,4 +129,5 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
